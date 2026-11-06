@@ -1,0 +1,24 @@
+{
+  "name": "hebrew-acronyms",
+  "version": "1.0.0",
+  "description": "Hebrew acronyms dictionary (ראשי תיבות): 414 entries with lookup, search and expand() that turns צה״ל into צבא הגנה לישראל for TTS, voice agents and search",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": ["index.js", "index.d.ts", "data.js"],
+  "sideEffects": false,
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test test.js" },
+  "keywords": ["hebrew", "acronyms", "abbreviations", "ראשי תיבות", "עברית", "israel", "tts", "text-to-speech", "nlp", "rtl"],
+  "author": "Aiterra <info@aiterra.co.il> (https://www.aiterra.co.il)",
+  "license": "MIT",
+  "homepage": "https://www.aiterra.co.il/tools/hebrew-acronyms",
+  "repository": { "type": "git", "url": "git+https://github.com/aiterra-il/hebrew-acronyms.git" },
+  "bugs": { "url": "https://github.com/aiterra-il/hebrew-acronyms/issues" }
+}
